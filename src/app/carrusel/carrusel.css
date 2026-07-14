@@ -1,7 +1,9 @@
 .carrusel {
-    width: 100%;
-    height: 500px;
-    position: relative;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    height: 400px;
     overflow: hidden;
 }
 

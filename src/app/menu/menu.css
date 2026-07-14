@@ -1,11 +1,10 @@
 .menu-cuadritos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* 3 columnas */
     gap: 20px;
-    /* espacio entre cuadritos */
     padding: 40px;
     background-color: #fff;
+    margin-top: 500px;
 }
 
 .cuadrito {
