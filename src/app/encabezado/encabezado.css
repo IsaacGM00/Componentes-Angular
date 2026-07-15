@@ -30,9 +30,25 @@
 }
 
 .nav-links a:hover {
-    color: #00bcd4;
+    color: #ff9800;
 }
 
 .navbar img {
     display: block;
+}
+
+.header-links {
+    display: flex;
+    color: white;
+    gap: 2rem;
+    list-style: none;
+    /* quita los bullets */
+    padding: 0;
+    /* elimina el padding por defecto del ul */
+    margin: 0;
+    /* elimina el margen por defecto del ul */
+}
+
+.header-links li:hover {
+    color: #ff9800;
 }
